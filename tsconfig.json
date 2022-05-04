@@ -1,0 +1,67 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "declaration": true,
+        "target": "es5",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "rootDir": ".",
+        "baseUrl": "src",
+        "paths": {
+            "@components/*": [
+                "web/components/*"
+            ],
+            "@hooks/*": [
+                "web/hooks/*"
+            ],
+            "@pages/*": [
+                "web/pages/*"
+            ],
+            "@layouts/*": [
+                "web/layouts/*"
+            ],
+            "@assets/*": [
+                "web/assets/*"
+            ],
+            "@store/*": [
+                "web/store/*"
+            ],
+            "@utils/*": [
+                "web/utils/*"
+            ],
+            "@constants/*": [
+                "web/constants/*"
+            ],
+            "@routers/*": [
+                "web/routers/*"
+            ],
+        }
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "scripts"
+    ]
+}
